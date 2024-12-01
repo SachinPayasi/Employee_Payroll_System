@@ -189,14 +189,12 @@ public class Main {
     	System.out.println("Initial Employee Details:");
     	payrollSystem.displayEmployees();
     	
-    }else if(choice==2) {
-    	
+    } 
+    else if(choice==2) {
    
-    	
     	System.out.println("\nRemaining Employee Details:");
     	payrollSystem.displayEmployees();
-    	
-    	
+
     }
     else {
     	System.out.println("Invalid Input");
