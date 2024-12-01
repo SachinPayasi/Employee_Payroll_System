@@ -169,11 +169,20 @@ public class Main {
    payrollSystem.addEmployee(emp7);
    payrollSystem.addEmployee(emp8);
    payrollSystem.addEmployee(emp9);
+
+		
     
+    //Removing Employee with ID 101 , 103");
+    payrollSystem.removeEmployee(101);
+    payrollSystem.removeEmployee(103);
+
+		
    Scanner scanner = new Scanner(System.in);
     System.out.println("1:- Detils Of Employee");
     System.out.println("2:- Remaining Employees After Removing");
-    
+
+
+  // User Menu		
     System.out.println("\nEnter Your Choice ");
     int choice = scanner.nextInt();
     if(choice ==1) {
@@ -192,9 +201,6 @@ public class Main {
     else {
     	System.out.println("Invalid Input");
     }
-    //System.out.println("\nRemoving Employee with ID 101 , 103");
-    payrollSystem.removeEmployee(101);
-    payrollSystem.removeEmployee(103);
 
    
     	    	
